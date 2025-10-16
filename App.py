@@ -62,3 +62,4 @@ if st.button("Generate Optimized Timetable"):
         # Download CSV
         csv = df.to_csv(index=False).encode("utf-8")
         st.download_button("💾 Download Timetable as CSV", csv, "optimized_timetable.csv", "text/csv")
+
